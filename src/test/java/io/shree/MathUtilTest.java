@@ -8,7 +8,10 @@ class MathUtilTest {
 
 	@Test
 	void test() {
-		System.out.println("Not yet implemented");
+		MathUtil math=new MathUtil();
+		int expected=3;
+		int actual=math.add(1, 2);
+		assertEquals(expected, actual);
 	}
 
 }
